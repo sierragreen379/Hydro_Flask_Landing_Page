@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hydro Flask</title>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://www.hydroflask.com/static/version1643808154/frontend/Astound/hydro/en_US/images/logo.svg" alt="hydro flask logo">
+      <nav id="nav-bar">
+        <a class="nav-link features-link" href="#features">Features</a>
+        <a class="nav-link video-link" href="#video">Take a Look</a>
+        <a class="nav-link products-link" href="#products">Products</a>
+      </nav>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email"></label>
+        <input
+               id="email"
+               name="email"
+               type="email"
+               placeholder="example@gmail.com"
+               required
+               />
+        <input
+             id="submit"
+             name="submit"
+             type="submit"
+             value="Sign In"
+             />
+      </form>
+    </header>
+    <h1 id="title">Hydration Bottles</h1>
+    <section id="features">
+      <div id="temperature_circle"></div>
+    <img id="temperature_img" src="https://www.hydroflask.com/media/wysiwyg/tempshield.png" alt="">
+    <h2 id="temperature_title">Temperature</h2>
+    <p id="temperature_body">TempShield™ double wall vacuum insulation eliminates condensation and keeps your beverage cold or hot for hours.</p>
+      <div id="taste_circle"></div>
+    <img id="taste_img" src="https://www.hydroflask.com/media/wysiwyg/18_8.png" alt="">
+    <h2 id="taste_title">Taste</h2>
+    <p id="taste_body">Durable 18/8 pro-grade stainless steel construction won’t retain or transfer flavor.</p>
+      <div id="transport_circle"></div>
+    <img id="transport_img" src="https://www.hydroflask.com/media/wysiwyg/powdercoat.png" alt="">
+    <h2 id="transport_title">Transport</h2>
+    <p id="transport_body">Our signature powder coat is easy to grip, sweat-free, and durable – so you can take your Hydro Flask anywhere.</p>
+      <div id="warranty_circle"></div>
+    <img id="warranty_img" src="https://www.hydroflask.com/media/wysiwyg/lifetime_warranty.png" alt="">
+    <h2 id="warranty_title">Lifetime Warranty</h2>
+    <p id="warranty_body">We are so convinced that Hydro Flask is the best available that we guarantee every bottle with a limited lifetime warranty against manufacturer defects.</p>
+    </section>
+    <h2 id="take_a_look">Take a Look!</h2>
+    <iframe
+            id="video"
+            height="405" src="https://www.youtube.com/embed/As8rEe9SD04"
+            frameborder="0"
+            allowfullscreen
+    ></iframe>
+    <section id="products">
+      <div class="product" id="standard">
+    <h3>Standard Mouth</h3>
+    <img src="https://www.hydroflask.com/media/catalog/product/cache/f88319ddaa3658b8831e507eead00475/s/1/s18sx-starfish.jpg" alt="">
+      <select id="dropdown" name="size">
+        <option value="" selected>Size</option>
+        <option value="18oz">18 oz $29.95</option>
+        <option value="21oz">21 oz $32.95</option>
+        <option value="24oz">24 oz $34.95</option>
+      </select>
+        <div class="colors">
+        <input type="radio" class="black" name="standard_colors" value="black">
+        <label for="black"></label>
+        <input type="radio" class="white" name="standard_colors" value="white">
+        <label for="white"></label>
+        <input type="radio" class="olive" name="standard_colors" value="olive">
+        <label for="olive"></label>
+        <input type="radio" class="pacific" name="standard_colors" value="pacific">
+        <label for="pacific"></label>
+        <input type="radio" class="rain" name="standard_colors" value="rain">
+        <label for="rain"></label>
+        <input type="radio" class="seagrass" name="standard_colors" value="seagrass">
+        <label for="seagrass"></label>
+        <input type="radio" class="laguna" name="standard_colors" value="laguna">
+        <label for="laguna"></label>
+        <input type="radio" class="snapper" name="standard_colors" value="snapper">
+        <label for="snapper"></label>
+        <input type="radio" class="starfish" name="standard_colors" value="starfish">
+        <label for="starfish"></label>
+        </div>
+        <button class="select_btn">SELECT</button>
+      </div>
+    <div class="product" id="wide">
+    <h3>Wide Mouth</h3>
+    <img src="https://www.hydroflask.com/media/catalog/product/cache/f88319ddaa3658b8831e507eead00475/w/3/w32bts-laguna.jpg" alt="">
+      <select id="dropdown" name="size">
+        <option value="" selected>Size</option>
+        <option value="20oz">20 oz $32.95</option>
+        <option value="32oz">32 oz $44.95</option>
+        <option value="40oz">40 oz $49.95</option>
+        <option value="64oz">64 oz $64.95</option>
+      </select>
+      <div class="colors">
+        <input type="radio" class="black" name="wide_colors" value="black">
+        <label for="black"></label>
+        <input type="radio" class="white" name="wide_colors" value="white">
+        <label for="white"></label>
+        <input type="radio" class="olive" name="wide_colors" value="olive">
+        <label for="olive"></label>
+        <input type="radio" class="pacific" name="wide_colors" value="pacific">
+        <label for="pacific"></label>
+        <input type="radio" class="rain" name="wide_colors" value="rain">
+        <label for="rain"></label>
+        <input type="radio" class="seagrass" name="wide_colors" value="seagrass">
+        <label for="seagrass"></label>
+        <input type="radio" class="laguna" name="wide_colors" value="laguna">
+        <label for="laguna"></label>
+        <input type="radio" class="snapper" name="wide_colors" value="snapper">
+        <label for="snapper"></label>
+        <input type="radio" class="starfish" name="wide_colors" value="starfish">
+        <label for="starfish"></label>
+        </div>
+        <button class="select_btn">SELECT</button>
+      </div>
+    </section>
+    <footer>
+      <img id="footer_img" src="https://www.hydroflask.com/static/version1643808154/frontend/Astound/hydro/en_US/images/logos/footer-logo.svg" alt="hydro flask logo with let's go">
+      <p id="disclaimer">All text and images have been copied directly from the actual <a href="https://www.hydroflask.com/bottles" target="_blank">Hydro Flask website</a>.</p>
+      <p id="copyright">2022 Hydro Flask. <a href="#" target="_blank">Terms & Privacy</a></p>
+    </footer>
+  </body>
+</html>
