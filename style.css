@@ -17,7 +17,7 @@ body {
 
 #header-img {
   margin-left: 1rem;
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
   align-self: start;
 }
 
@@ -30,11 +30,18 @@ body {
 .nav-link {
   color: white;
   text-decoration: none;
+  display: inline-block;
 }
 
 .nav-link:hover {
   transform: scale(1.2);
-  transition: transform .5s;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transition: transform .3s;
+  -webkit-transition: transform .3s;
+  -moz-transition: transform .3s;
+  -o-transition: transform .3s;
 }
 
 .video-link {
@@ -43,6 +50,7 @@ body {
 
 #form {
   margin-right: 1rem;
+  margin-top: 0.2rem;
   font-size: 22px;
 }
 
